@@ -30,7 +30,7 @@
 
       var materialOptions = {
         chart: {
-          title: 'Статистические данные по номиналу'
+          title: 'Общая статистика'
         },
         width: 900,
         height: 500,
