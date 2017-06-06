@@ -47,7 +47,7 @@
       };
 
       var classicOptions = {
-        title: 'Статистические данные по номиналу',
+        title: 'Общая статистика',
         width: 900,
         height: 500,
         // Gives each series an axis that matches the vAxes number below.
