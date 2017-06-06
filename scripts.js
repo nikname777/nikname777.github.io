@@ -8,10 +8,10 @@
 
       var data = new google.visualization.DataTable();
       data.addColumn('date', 'Month');
-      data.addColumn('number', "Курс номинала");
+      data.addColumn('number', "Сколько стали оплачивать покупки Номиналами");
       data.addColumn('number', "КПД по картам-людям");
       data.addColumn('number', "Сколько монет в сутки покупают");
-      data.addColumn('number', "Сколько стали оплачивать покупки Номиналами");
+      data.addColumn('number', "Курс номинала");
 
       data.addRows([
         [new Date(2017, 0),  1,   1 , 1 , 1 ],
@@ -30,7 +30,7 @@
 
       var materialOptions = {
         chart: {
-          title: 'Общая статистика'
+          title: 'Статистические данные по номиналу'
         },
         width: 900,
         height: 500,
@@ -47,7 +47,7 @@
       };
 
       var classicOptions = {
-        title: 'Общая статистика',
+        title: 'Статистические данные по номиналу',
         width: 900,
         height: 500,
         // Gives each series an axis that matches the vAxes number below.

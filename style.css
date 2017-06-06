@@ -1,6 +1,6 @@
 body {
 	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-	font-size: 18px!important;
+	font-size: 14px!important;
 }
 
 .table-stat {
@@ -58,7 +58,7 @@ caption {
   padding: 10px;
   color: white;
   background: #8FD4C1;
-  font-size: 18px;
+  font-size: 14px;
   text-align: left;
   font-weight: bold;
 }
@@ -79,7 +79,7 @@ tr:nth-child(even) {
 
 .table {
 	display: flex;
-	justify-content: space-around;
+	justify-content: center;
 	align-items: center;
 	flex-wrap: wrap-reverse;
 }
