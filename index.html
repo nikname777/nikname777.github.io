@@ -2,10 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="accets/css/style.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
@@ -32,6 +29,10 @@
             <a class="nav__link" href="#">Blog</a>
             <a class="nav__link" href="#">Work</a>
             <a class="nav__link" href="#">Contact</a>
+            <a class="nav__link" href="#"
+              ><i class="fas fa-shopping-cart"></i
+            ></a>
+            <a class="nav__link" href="#"><i class="fas fa-search"></i></a>
           </nav>
         </div>
       </div>
@@ -807,9 +808,139 @@
     <footer class="footer">
       <div class="container">
         <div class="footer__inner">
-          <div class="footer__col"></div>
+          <div class="footer__col footer__col--first">
+            <div class="footer__logo">MoGo</div>
+            <div class="footer__text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </div>
+            <div class="footer__social">
+              <div class="footer__social-header"><b>15k</b> followers</div>
+              <div class="footer__social-content">
+                Follow Us:
+                <a href="#" target="_blank">
+                  <i class="fab fa-facebook"></i>
+                </a>
+                <a href="#" target="_blank">
+                  <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#" target="_blank">
+                  <i class="fab fa-instagram"></i>
+                </a>
+                <a href="#" target="_blank">
+                  <i class="fab fa-pinterest-p"></i>
+                </a>
+              </div>
+            </div>
+            <!--/.footer__social-->
+
+            <form class="subscribe" action="/" method="POST">
+              <input
+                class="subscribe__input"
+                type="email"
+                name="name"
+                placeholder="Your mail"
+              />
+              <button class="subscribe__btn" type="button">Subscribe</button>
+            </form>
+          </div>
+          <!--/.footer__col-->
+          <div class="footer__col footer__col--second">
+            <div class="footer__title">Blogs</div>
+            <div class="blogs">
+              <div class="blogs__item">
+                <img
+                  class="blogs__img"
+                  src="accets/images/blogs/1.jpg"
+                  alt="#"
+                />
+                <div class="blogs__content">
+                  <a class="blogs__title" href="#"
+                    >Lorem ipsum dolor sit amet, consectetur adipiscing</a
+                  >
+                  <div class="blogs__date">Jan 9, 2016</div>
+                </div>
+              </div>
+
+              <div class="blogs__item">
+                <img
+                  class="blogs__img"
+                  src="accets/images/blogs/2.jpg"
+                  alt="#"
+                />
+                <div class="blogs__content">
+                  <a class="blogs__title" href="#"
+                    >Lorem ipsum dolor sit amet, consectetur adipiscing</a
+                  >
+                  <div class="blogs__date">Jan 9, 2016</div>
+                </div>
+              </div>
+
+              <div class="blogs__item">
+                <img
+                  class="blogs__img"
+                  src="accets/images/blogs/3.jpg"
+                  alt="#"
+                />
+                <div class="blogs__content">
+                  <a class="blogs__title" href="#"
+                    >Lorem ipsum dolor sit amet, consectetur adipiscing</a
+                  >
+                  <div class="blogs__date">Jan 9, 2016</div>
+                </div>
+              </div>
+            </div>
+            <!--/.blogs-->
+          </div>
+          <!--/.footer__col-->
+          <div class="footer__col footer__col--third">
+            <div class="footer__title">Instagram</div>
+            <div class="instagram">
+              <div class="instagram__inner">
+                <a href="#" class="intagram__item" target="_blank">
+                  <img src="accets/images/instagram/1.jpg" alt="" />
+                </a>
+                <a href="#" class="intagram__item" target="_blank">
+                  <img src="accets/images/instagram/2.jpg" alt="" />
+                </a>
+                <a href="#" class="intagram__item" target="_blank">
+                  <img src="accets/images/instagram/3.jpg" alt="" />
+                </a>
+                <a href="#" class="intagram__item" target="_blank">
+                  <img src="accets/images/instagram/4.jpg" alt="" />
+                </a>
+                <a href="#" class="intagram__item" target="_blank">
+                  <img src="accets/images/instagram/5.jpg" alt="" />
+                </a>
+                <a href="#" class="intagram__item" target="_blank">
+                  <img src="accets/images/instagram/6.jpg" alt="" />
+                </a>
+                <a href="#" class="intagram__item" target="_blank">
+                  <img src="accets/images/instagram/7.jpg" alt="" />
+                </a>
+                <a href="#" class="intagram__item" target="_blank">
+                  <img src="accets/images/instagram/8.jpg" alt="" />
+                </a>
+                <a href="#" class="intagram__item" target="_blank">
+                  <img src="accets/images/instagram/9.jpg" alt="" />
+                </a>
+              </div>
+              <div class="instagram__views">
+                <a href="#">View more photos</a>
+              </div>
+            </div>
+          </div>
+          <!--/.footer__col-->
+        </div>
+        <!--/.footer__inner-->
+
+        <div class="copyright">
+          © 2016 MoGo free PSD template by <span>Laaqiq</span>
         </div>
       </div>
+      <!--/.container-->
     </footer>
   </body>
 </html>
